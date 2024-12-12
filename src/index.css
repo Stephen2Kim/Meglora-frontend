@@ -1,0 +1,12 @@
+/* src/index.css */
+body {
+  background-color: rgb(243, 247, 255); /* Light touch color */
+  color: rgb(18, 87, 255); /* Blue text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(18, 87, 255); /* Blue text for headers */
+}

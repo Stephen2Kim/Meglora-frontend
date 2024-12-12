@@ -1,0 +1,84 @@
+/* src/components/IllnessCards.css */
+.illness-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  /* Large illness cards (Top row) */
+  .large-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;  /* Space between top and bottom rows */
+  }
+  
+  .card.large {
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .card.large img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Small illness cards (Bottom row) */
+  .small-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .card.small {
+    width: 120px;
+    margin: 10px;
+  }
+  
+  .card.small img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Hover and animation effects */
+  .card {
+    background-color: white;
+    border: 2px solid rgb(18, 87, 255);
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);  /* Dancing effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    color: rgb(18, 87, 255);
+    margin: 10px 0;
+  }
+  
+  .card p {
+    color: rgb(100, 100, 100);
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(18, 87, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .learn-more-btn:hover {
+    color: rgb(243, 247, 255);
+  }
+  
+  .learn-more-btn span {
+    margin-left: 5px;
+  }
+  
